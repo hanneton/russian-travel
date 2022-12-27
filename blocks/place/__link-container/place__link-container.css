@@ -1,0 +1,12 @@
+.place__link-container {
+    box-sizing: border-box;
+    max-width: 484px;
+    width: 100%;
+    align-self: end;
+}
+
+@media all and (max-width: 321px) {
+    .place__link-container {
+        padding: 0 16px;
+    }
+}

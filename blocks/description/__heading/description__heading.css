@@ -1,0 +1,21 @@
+.description__heading {
+    margin: 92px auto 40px;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 1.07;
+}
+
+@media all and (max-width: 769px) {
+    .description__heading {
+        margin: 88px auto 40px;
+    }
+}
+
+@media all and (max-width: 321px) {
+    .description__heading {
+        margin: 64px auto 40px;
+        font-size: 32px;
+        line-height: 1.09;
+    }
+}

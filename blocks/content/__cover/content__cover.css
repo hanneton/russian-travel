@@ -1,0 +1,9 @@
+.content__cover {
+    margin-top: 92px;
+}
+
+@media all and (max-width: 321px) {
+    .content__cover {
+        margin-top: 66px;
+    }
+}

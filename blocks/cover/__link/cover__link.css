@@ -1,0 +1,14 @@
+.cover__link {
+    display: flex;
+    background-color: rgba(42, 44, 47, 0.3);
+    text-decoration: none;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.cover__link:hover {
+    background-color: rgba(42, 44, 47, 0.8);
+}

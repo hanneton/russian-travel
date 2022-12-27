@@ -1,0 +1,14 @@
+.description__paragraph {
+    max-width: 690px;
+    margin: 0 0 33px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.63;
+}
+
+@media all and (min-width: 320px) and(max-width: 768px) {
+    .description__paragraph {
+        max-width: 720px;
+    }
+}

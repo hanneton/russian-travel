@@ -1,0 +1,18 @@
+.header__lang-switch-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.header__lang-switch-link:not(:last-child) {
+    margin-right: 18px;
+}
+
+@media all and (max-width: 700px) {
+    .header__lang-switch-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

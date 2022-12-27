@@ -1,0 +1,20 @@
+.footer__copyright {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #fff;
+}
+
+/* @media all and (max-width: 701px) {
+    .footer__copyright {
+        align-self: flex-end;
+    }
+} */
+
+@media all and (max-width: 321px) {
+    .footer__copyright {
+        align-self: flex-start;
+        line-height: 1;
+    }
+}

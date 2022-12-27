@@ -1,0 +1,34 @@
+.header__main-illustration {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 984px;
+    min-height: 615px;
+}
+
+@media all and (max-width: 1025px) {
+    .header__main-illustration {
+        max-width: 928px;
+        min-height: 580px;
+    }
+}
+
+@media all and (max-width: 769px) {
+    .header__main-illustration {
+        max-width: 768px;
+        min-height: 480px;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 768px) {
+    .header__main-illustration {
+        min-height: 200px;
+    }
+}
+
+@media all and (max-width: 321px) {
+    .header__main-illustration {
+        max-width: 320px;
+        min-height: 200px;
+    }
+}

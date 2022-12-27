@@ -1,0 +1,23 @@
+.place__pic {
+    margin: 0 auto;
+    max-width: 460px;
+    width: 100%;
+}
+
+@media all and (max-width: 1025px) {
+    .place__pic {
+        max-width: 440px;
+    }
+}
+
+@media all and (max-width: 769px) {
+    .place__pic {
+        max-width: 340px;
+    }
+}
+
+@media all and (max-width: 321px) {
+    .place__pic {
+        width: 320px;
+    }
+}

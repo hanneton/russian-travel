@@ -1,0 +1,23 @@
+.place__text {
+    margin: 0 auto;
+    max-width: 484px;
+    width: 100%;
+}
+
+@media all and (max-width: 1025px) {
+    .place__text {
+        max-width: 456px;
+    }
+}
+
+@media all and (max-width: 769px) {
+    .place__text {
+        max-width: 352px;
+    }
+}
+
+@media all and (max-width: 321px) {
+    .place__text {
+        max-width: 288px;
+    }
+}

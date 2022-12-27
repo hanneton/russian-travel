@@ -1,0 +1,18 @@
+.description__list {
+    max-width: 690px;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 92px;
+}
+
+@media all and (max-width: 769px) {
+    .description__list {
+        margin-bottom: 88px;
+    }
+}
+
+@media all and (max-width: 321px) {
+    .description__list {
+        margin-bottom: 64px;
+    }
+}

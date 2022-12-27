@@ -7,3 +7,6 @@
 ## Используемые технологии:
 * HTML
 * CSS
+
+## Ссылка на проект
+[Путешествие по России](https://hanneton.github.io/russian-travel/index.html)

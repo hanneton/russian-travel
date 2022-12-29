@@ -1,11 +1,16 @@
 .place {
-    max-width: (100% - 296px);
+    max-width: calc(100% - 296px);
     margin: 0 auto;
+    padding-top: 80px;
     display: grid;
     grid-template-columns: repeat(2, fit-content(484px));
     grid-template-rows: repeat(2, min-content);
     justify-content: center;
     gap: 48px 40px;
+}
+
+.place:first-child {
+    padding-top: 0;
 }
 
 @media all and (max-width: 1025px) {
@@ -21,6 +26,7 @@
         max-width: calc(100% - 48px);
         grid-template-columns: repeat(2, fit-content(352px));
         gap: 48px 28px;
+        padding-top: 73px;
     }
 }
 
@@ -29,5 +35,6 @@
         max-width: calc(100% - 32px);
         grid-template-columns: fit-content(320px);
         gap: 32px;
+        padding-top: 50px;
     }
 }

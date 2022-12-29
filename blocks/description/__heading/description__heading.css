@@ -12,7 +12,7 @@
     }
 }
 
-@media all and (max-width: 321px) {
+@media all and (max-width: 700px) {
     .description__heading {
         margin: 64px auto 40px;
         font-size: 32px;

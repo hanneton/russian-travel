@@ -1,6 +1,5 @@
-.header__subtitle {
-    margin: 0 auto;
-    margin-bottom: 64px;
+.lead__subtitle {
+    margin: 0 auto 64px;
     max-width: 640px;
     font-weight: 400;
     font-size: 30px;
@@ -10,14 +9,14 @@
 }
 
 @media all and (max-width: 1025px) {
-    .header__subtitle {
-        margin-bottom: 56px;
+    .lead__subtitle {
+        margin: 0 auto 56px;
     }
 }
 
 @media all and (max-width: 700px) {
-    .header__subtitle {
-        margin-bottom: 40px;
+    .lead__subtitle {
+        margin: 0 auto 40px;
         font-size: 16px;
         line-height: 1.25;
     }

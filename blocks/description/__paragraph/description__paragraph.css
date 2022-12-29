@@ -6,9 +6,3 @@
     font-size: 16px;
     line-height: 1.63;
 }
-
-@media all and (min-width: 320px) and(max-width: 768px) {
-    .description__paragraph {
-        max-width: 720px;
-    }
-}

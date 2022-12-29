@@ -1,4 +1,4 @@
-.header__caption {
+.lead__caption {
     max-width: 984px;
     margin: 8px auto 0;
     font-weight: 400;
@@ -9,22 +9,22 @@
     color: #FFFFFF;
 }
 
-/* @media all and (max-width: 1025px) {
-    .header__caption {
+@media all and (max-width: 1025px) {
+    .lead__caption {
         max-width: 928px;
-        margin: 8px auto 0;
+        margin: 8px 48px 0;
     }
-} */
+}
 
 @media all and (max-width: 769px) {
-    .header__caption {
-        max-width: 928px;
+    .lead__caption {
+        max-width: 768px;
         margin: 8px 24px 0;
     }
 }
 
 @media all and (max-width: 321px) {
-    .header__caption {
+    .lead__caption {
         /* max-width: 320px; */
         margin: 8px 16px 0;
     }

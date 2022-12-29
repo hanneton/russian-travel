@@ -3,7 +3,11 @@
     color: #FFFFFF;
     font-weight: 400;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 1.17;
+}
+
+.header__lang-switch-link:hover {
+    opacity: 0.8;
 }
 
 .header__lang-switch-link:not(:last-child) {
@@ -13,6 +17,6 @@
 @media all and (max-width: 700px) {
     .header__lang-switch-link {
         font-size: 18px;
-        line-height: 20px;
+        line-height: 1.11;
     }
 }

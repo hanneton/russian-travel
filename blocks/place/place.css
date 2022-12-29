@@ -38,3 +38,9 @@
         padding-top: 50px;
     }
 }
+
+@media all and (max-width: 321px) {
+    .place {
+        max-width: 100%;
+    }
+}

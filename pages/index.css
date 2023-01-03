@@ -40,7 +40,7 @@
 @import url(../blocks/description/__list-item/description__list-item.css);
 @import url(../blocks/description/__number/description__number.css);
 
-
+@import url(../blocks/lead/__route-mask/lead__route-mask.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__main-illustration/lead__main-illustration.css);
@@ -51,5 +51,8 @@
 @import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__lang-switch/header__lang-switch.css);
 @import url(../blocks/header/__lang-switch-link/header__lang-switch-link.css);
+
+@import url(../blocks/logo/__outline/logo__outline.css);
+@import url(../blocks/logo/__writing/logo__writing.css);
 
 @import url(../blocks/header/__lang-switch-link/_active/header__lang-switch-link_active.css);

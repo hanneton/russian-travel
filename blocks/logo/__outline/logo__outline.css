@@ -1,0 +1,13 @@
+@keyframes move-apart-1 {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-12px);
+    }
+}
+
+.logo__outline {
+    animation: move-apart-1 1s ease-in-out alternate infinite;
+}

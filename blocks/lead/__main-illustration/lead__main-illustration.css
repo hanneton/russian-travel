@@ -1,10 +1,11 @@
 .lead__main-illustration {
-    display: block;
+    background-image: url(../../../images/lead-section/lead-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     margin: 0 auto;
-    width: 100%;
     max-width: 984px;
     min-height: 615px;
-    object-fit: contain;
 }
 
 @media all and (max-width: 1025px) {
